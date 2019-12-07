@@ -1,8 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './homepage.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
