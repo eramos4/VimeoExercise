@@ -1,0 +1,178 @@
+.holding-container{
+    display: flex;   
+    background-color: white;
+    padding: 10vh;
+    flex-direction: row;
+
+}
+.inner-containerl{
+    flex: 1;
+    /* padding: ; */
+}
+
+.fourth-phase-container{
+    flex: 1;
+}
+.fourth-phase-text{
+    flex: 1;
+    text-align: left;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.fourth-phase-image{
+    padding: 0px;
+    width: 250px;
+}
+
+.inner-containerR{
+    flex: 1;
+    text-align: left;
+    padding: 25px;
+    font-size: 14px;
+    
+}
+
+.image{
+    padding: 35px;
+    width: 500px;
+    max-width:100%;
+}
+
+.bottom-holding-container{
+    display: flex; 
+    /* height: 120vh; */
+    background-image: linear-gradient(#333333,85%,white);
+    flex-direction: column;
+}
+.beams-text-containerL{
+    flex: 1;
+    text-align: left;
+    /* padding: 100px; */
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.carousel-text-containerL{
+    
+    text-align: left;
+    position: relative;
+    left: 20vh;
+    margin: 10vh;
+    /* padding: 100px; */
+    font-size: 14px;
+    color: black;
+    
+}
+
+.move-text-containerR{
+    flex: 1;
+    text-align: left;
+    /* padding: 100px; */
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.move-text-container-carousel{
+    flex: 1;
+    text-align: left;
+    /* padding: 100px; */
+    font-size: 14px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#padding-text{
+    padding: 82px;
+  
+}
+
+.beams-image-containerR{
+    flex: 1;
+}
+
+.padding-image{
+    padding: 85px;
+    max-width: 100%;
+    min-height: 40%;
+
+}
+
+.bottom-images{
+    position: relative;
+    display: block;
+    margin: 1em auto;
+    /* left: 50%; */
+    padding: 60px;
+
+    /* max-width: 100%;
+    height: 75%;
+    width: auto\9; */
+    /* overflow: hidden; */
+
+    /* width: 80%; */
+    /* align-items: center; */
+}
+
+.move-text-containerL{
+    flex: 1;
+    text-align: left;
+    padding: 65px;
+    font-size: 15px;
+    color: white;
+}
+
+.carousel-container{
+    background-color: aqua;
+}
+
+.carousel-image{
+    padding: 35px;
+    width: 400px;
+    
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .holding-container{
+        flex-direction: column-reverse;
+    }
+    .beams-text-containerL{
+        flex-direction: column;
+    }
+    .move-text-containerR{
+        flex-direction: column-reverse;
+    }
+    .move-text-container-carousel{
+        flex-direction: column-reverse;
+    }
+    .bottom-images{
+        padding: 20px;
+    } 
+}
+
+@media screen and (max-width: 500px){
+    /* .holding-container{
+        flex-direction: column-reverse;
+    }
+    .beams-text-containerL{
+        flex-direction: column;
+    }
+    .move-text-containerR{
+        flex-direction: column-reverse;
+    }
+    .move-text-container-carousel{
+        flex-direction: column-reverse;
+    } */
+    .bottom-images{
+        width: 450px;
+    } 
+}
